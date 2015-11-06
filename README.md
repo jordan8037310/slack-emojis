@@ -46,9 +46,18 @@ Get the token from https://api.slack.com/web
 
 ## Bulk upload emoji into Slack
 
-Want to create a custom Slack emoji for every pokemon? Slack doesn't currently expose an API endpoint for creating emoji, probably to prevent users from doing exactly what I'm doing, but here's a way to do it anyway.
+Want to create a custom Slack emoji for every pokemon?
 
-Prepare a directory that contains an image for each emoji you want to create. Remember to respect Slack's specifications for valid emoji images: no greater than 128px in width or height, no greater than 64K in image size. The base filename of each image file should be the name of the emoji (the bit you'll type inside `:` to display it).
+Slack doesn't currently expose an API endpoint for creating emoji, probably to prevent users
+from doing exactly what I'm doing, but here's a way to do it anyway.
+
+Prepare a directory that contains an image for each emoji you want to create.
+Remember to respect Slack's specifications for valid emoji images:
+no greater than 128px in width or height, no greater than 64K in image size.
+The base filename of each image file should be the name of the emoji
+(the bit you'll type inside `:` to display it).
+
+You'll need to have configured the `.env` with `$SLACK_TEAM` and `$SLACK_COOKIE`
 
 Now you're ready to go. Use a shell glob to invoke `upload.py` with the emoji files as ARGV:
 
