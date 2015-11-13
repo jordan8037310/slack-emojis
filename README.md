@@ -44,6 +44,8 @@ python get_emojis.py -o images "${SLACK_TEAM}" "${SLACK_TOKEN}"
 
 Get the token from https://api.slack.com/web
 
+Also see https://github.com/elight/slack_emoticon_inhaler and maybe https://github.com/github/gemoji/tree/master/images/emoji and https://github.com/jglovier/gifs and https://github.com/muan/emojilib/blob/master/emojis.json
+
 ## Bulk upload emoji into Slack
 
 Want to create a custom Slack emoji for every pokemon?
