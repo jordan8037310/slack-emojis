@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ### Before upload/download
 
 1. `cp .env.example .env`
-2. edit `.env`, follow comments to configure variables
+2. edit `.env`, *follow comments to configure variables*
 3. `source .env`
 
 You'll need to edit the `.env` whenever switching teams.
