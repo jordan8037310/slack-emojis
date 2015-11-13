@@ -50,10 +50,9 @@ Also see https://github.com/elight/slack_emoticon_inhaler and maybe https://gith
 
 Want to create a custom Slack emoji for every pokemon?
 
-Slack doesn't currently expose an API endpoint for creating emoji, probably to prevent users
-from doing exactly what I'm doing, but here's a way to do it anyway.
+Slack doesn't currently expose an API endpoint for uploading emoji.
 
-Prepare a directory that contains an image for each emoji you want to create.
+Add images to the `images/` folder`*`.
 Remember to respect Slack's specifications for valid emoji images:
 no greater than 128px in width or height, no greater than 64K in image size.
 The base filename of each image file should be the name of the emoji
@@ -66,5 +65,7 @@ Now you're ready to go. Use a shell glob to invoke `upload.py` with the emoji fi
 ```bash
 source .env && python upload.py images/*
 ```
+
+`*`:  If using a different source folder, be sure to change the folder in the above command.
 
 :sparkles:
