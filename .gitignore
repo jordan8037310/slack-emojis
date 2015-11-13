@@ -54,3 +54,22 @@ docs/_build/
 target/
 
 .env
+# Don't commit these images
+beryl.png
+boston.png
+dallas.png
+doge.png
+lenny.png
+munich.png
+rage1.png
+rage2.png
+rage3.png
+rage4.png
+rwjblue.jpg
+seth.png
+shrug.png
+slack.png
+squirrel.png
+sugarpirate.png
+tomster.png
+troll.png
