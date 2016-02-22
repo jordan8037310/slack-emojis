@@ -68,4 +68,12 @@ source .env && python upload.py images/*
 
 `*`:  If using a different source folder, be sure to change the folder in the above command.
 
+Or even try:
+
+```bash
+source .env && python upload.py $(git ls-files images/* | xargs)
+# or to limit to the ones you just committed:
+python upload.py $(git diff HEAD^..HEAD --stat | grep images | awk '{print $1 }' | xargs )
+```
+
 :sparkles:
