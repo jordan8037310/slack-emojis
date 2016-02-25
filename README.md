@@ -76,4 +76,6 @@ source .env && python upload.py $(git ls-files images/* | xargs)
 python upload.py $(git diff HEAD^..HEAD --stat | grep images | awk '{print $1 }' | xargs )
 ```
 
+via https://github.com/smashwilson/slack-emojinator/
+
 :sparkles:
