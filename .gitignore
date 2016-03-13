@@ -1,3 +1,97 @@
+# Workspace
 *.sublime-workspace
-
 .DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+.env
+# Don't commit these images
+beryl.png
+boston.png
+dallas.png
+doge.png
+lenny.png
+munich.png
+rage1.png
+rage2.png
+rage3.png
+rage4.png
+rwjblue.jpg
+seth.png
+shrug.png
+slack.png
+squirrel.png
+sugarpirate.png
+tomster.png
+troll.png
+bluestripe.jpg
+meteor.png
+wesbos.jpg
+facepalm.jpg
+r2d2.jpg
+aussieparrot.gif
+boredparrot.gif
+gothparrot.gif
+middleparrot.gif
+moomin.jpg
+mrb_bk.png
+oldtimeyparrot.gif
+partyparrot.gif
+rgsoc.png
+rightparrot.gif
+shufflefurtherparrot.gif
+shuffleparrot.gif
+fireworkw_gif.gif
