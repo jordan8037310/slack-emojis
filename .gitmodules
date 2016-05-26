@@ -1,0 +1,3 @@
+[submodule "collections/partyparrot"]
+	path = collections/partyparrot
+	url = https://github.com/Shrugs/partyparrot.git
