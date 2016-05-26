@@ -1,3 +1,6 @@
 [submodule "collections/partyparrot"]
 	path = collections/partyparrot
 	url = https://github.com/Shrugs/partyparrot.git
+[submodule "collections/cultofthepartyparrot.com"]
+	path = collections/cultofthepartyparrot.com
+	url = https://github.com/jmhobbs/cultofthepartyparrot.com.git
